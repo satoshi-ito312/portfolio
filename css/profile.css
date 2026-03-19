@@ -1,0 +1,95 @@
+@charset "UTF-8";
+* {
+   margin: 0;
+   padding: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.header-logo {
+    width: 100px;
+    margin: 10px 0px 0px 40px;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+.header-logo:hover{
+  opacity: 0.5;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.main {
+    flex: 1;
+    display: flex;
+}
+.main__nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 12%;
+    padding-left: 40px;
+    margin-top: 195px;
+}
+.navlist__item{
+    font-family: "Saira", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.navlist__link {
+    display: inline-block;
+    color: rgb(128, 212, 98);
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+.navlist__item.profile .navlist__link {
+    color: rgb(52, 184, 4);
+}
+
+.navlist__link:hover{
+    opacity: 0.5;
+}
+.contents {
+  animation: fadeIn 1s ease-in-out;
+}
+.contents__item {
+    display: flex;
+    padding-top: 60px;
+    padding-left: 68px;
+    gap: 100px;
+}
+.contents__img {
+  width: 320px;
+  box-shadow: 0px 1px 7px 0px rgb(0,0,0,0.1);
+}
+.card {
+  line-height: 2;
+}
+.name {
+  font-size: 25px;
+}
+.introduction {
+  font-size: 14px;
+  padding-top: 10px;
+}
+footer {
+    color: rgb(128, 212, 98);
+    font-weight: 800;
+    padding-left: 40px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,322 @@
+@charset "utf-8";
+
+nav ul{
+    display: flex;
+}
+.back{
+    background-image: url("../img/background_pic.png");
+    background-position: center 0 ;
+    background-repeat: no-repeat;
+    background-size: 130%;
+}
+.gnav{
+    display: flex;
+    justify-content:space-between;
+    background-color:rgba(225, 225, 255, 0.5);
+    position: fixed;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.gnav ul{
+    align-items: center;
+}
+nav li{
+    margin-right: 26px;
+}
+nav .nav{
+    margin-right: 20px;
+}
+header{
+    text-align: center;
+}
+header .text1{
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 2% 10% 4% 22%;
+    letter-spacing: 4px;
+    font-size: 16px;
+    line-height: 3.5;
+    white-space: nowrap;
+}
+.dcafe{
+    font-size: 50px;
+    padding-top: 125px;
+    margin-bottom: 50px;
+    letter-spacing: 5px;
+}
+.dnimg img {
+    width: 70%;
+    padding-top: 80px;
+}
+.onlineshop {
+    color:#B1B1B1;
+    text-decoration: none;
+    font-size: 24px;
+}
+main .list{
+    width: 1000px;
+    margin: 0 auto;
+}
+main .text2{
+    margin-bottom: 50px;
+    line-height: 20px;
+    font-size: 13px;
+}
+main .onlineshop a{
+    color: #b1b1b1;
+    font-size: 24px;
+    text-decoration: none
+}
+main .onlineshop{
+    margin-bottom: 80px;
+    padding-top: 110px;
+}
+main{
+    text-align: center;
+}
+.shop{
+    background-color: rgba(133, 133, 156, 0.5);
+}
+main .shop ul{
+    display: flex;
+    padding-top: 45px;
+    justify-content: center;
+    color: #464646;
+}
+main .shop li{
+    width: 300px;
+    font-size: 13px;
+    text-align: left;
+    list-style-type: none;
+}
+main .bgimg1{
+    margin-top: 100px;
+    height: 900px;
+    background-image: url("../img/a_lot_of_donut.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+main .miel{
+    float: right;
+    width: 75px;
+    height: 75px;
+}
+main .tempo{
+    width: 300px;
+    margin-right: 50px;
+    text-align: center;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.access {
+    width: 950px;
+    font-size: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    letter-spacing: 6px;
+    border-bottom: 3px solid rgb(214, 214, 214);
+}
+main .map{
+    position: relative;
+    }
+    main .map iframe{
+        width: 40%;
+    }
+    .map_card img{
+        width: 120px;
+        position:absolute;
+        left: 110%;
+        margin-left: -85%;
+        margin-top: 115px;
+    }
+ 
+    .map_card {
+        width: 1265px;
+        margin: 5% auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .access_info {
+        font-size: 19px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        font-weight: 300;
+        justify-content: space-evenly;
+    }
+    main .tempo:last-child{
+        margin-right: 0px;
+    }
+    main .naiyou{
+        width: 100%;
+        height: 110px;
+        margin: 20px 0 0 0;
+        line-height: 1.5;
+        border-bottom: 1px solid #A9A9A9;
+        color: #6b6b6b;
+    }
+    main .link{
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+    footer .icon{
+        list-style-type: none;
+    }
+
+    footer {
+        background-image: url(#img_cafe_shes.jpg);
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-color: rgba(133, 133, 156, 0.5);
+        text-align: center;
+        line-height: 1.5;
+        font-size: 13px;
+    }
+
+    footer .onlineshop{
+        width: 100%;
+        padding: 30px 0 30px 0;
+        border-bottom: 1px solid #FFFFFF
+    }
+    footer .onlineshop li{
+        padding: 10px;
+    }
+footer .icon{
+    width: 220px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.icon img{
+    width: 30px;
+}
+footer .backnumber{
+    display: flex;
+    margin-right: auto;
+    text-align: center;
+}
+footer .option{
+    width: 1000px;
+    margin: 0 auto;
+}
+footer .tab{
+    text-align: left;
+    padding: 0 0 0 10px;
+    margin: 0 0 0 20px;
+    color: #ffffff;
+    height: 80px;
+    border-left: 1px solid #FFFFFF;
+}
+footer .tab li{
+    list-style: none;
+}
+footer .tab a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+footer .copy{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+li.nav img {
+    width: 20px;
+}
+
+.logo img{
+    width: 150px;
+}
+.nav-side{
+    display: flex;
+
+    align-items: center;
+  
+}
+.nav-side img{
+    width: 60px;
+    padding-right: 10px;
+}
+.shopicon img{
+    width: 70px;
+}
+.menuicon img{
+    width: 69px;
+}
+.accessicon img{
+    width: 82px;
+}
+.concepticon img{
+    width: 98px;
+}
+.midashi {
+    font-size: 32px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 1.5;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 4% 10% 4% 10%;
+    letter-spacing: 4px;
+    white-space: nowrap;
+    display: inline-block;
+    border-bottom: solid 3px rgb(214, 214, 214);
+}
+
+.pickup {
+    font-size: 50px;
+    padding-top: 10%;
+    letter-spacing: 3px;
+}
+.card {
+    display: flex;
+    padding: 10% 22% 0 22%;
+    justify-content: center;
+}
+.content {
+    padding-left: 5%;
+    padding-top:3% ;
+}
+.content_heading {
+    display: flex;
+    padding-bottom: 5%;
+    border-bottom: solid 2px rgb(214, 214, 214);
+
+}
+.heading {
+    padding-bottom: 7%;
+    font-size: 120%;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+.heading_yomi {
+    padding-top: 1%;
+    padding-left: 13%;
+    padding-bottom: 10%;
+    font-size: 85%;
+    font-weight: 400;
+    white-space: nowrap;
+}
+.explanation {
+    padding-top: 7%;
+    font-size: 90%;
+    font-weight: 300;
+    text-align: left;
+    line-height: 3;
+}
+.tempo_img {
+    width: 100%;
+}
+.what_is {
+    width: 400px;
+}
+
+.opelation img {
+    width: 50%;
+}
